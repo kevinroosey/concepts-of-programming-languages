@@ -118,7 +118,10 @@ def fact(n:Int) : Int =
 
 #### Scala
 ```
-
+class C:
+  val x = 1
+  lazy val y = 1 + 2
+  def z = 1
 ```
 
 #### Expressed in Java
